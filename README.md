@@ -32,6 +32,7 @@ USAGE
 * [`todocli hello`](#todocli-hello)
 * [`todocli help [COMMAND]`](#todocli-help-command)
 * [`todocli show`](#todocli-show)
+* [`todocli update`](#todocli-update)
 
 ## `todocli add`
 
@@ -88,11 +89,26 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6
 
 ## `todocli show`
 
-Describe the command here
+Shows existing tasks
 
 ```
 USAGE
   $ todocli show
+
+DESCRIPTION
+  ...
+  Shows all the tasks sorted by their ids
+```
+
+_See code: [src/commands/show.js](https://github.com/mingderwang/todocli/blob/v0.0.0/src/commands/show.js)_
+
+## `todocli update`
+
+Describe the command here
+
+```
+USAGE
+  $ todocli update
 
 OPTIONS
   -n, --name=name  name to print
@@ -102,5 +118,5 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/show.js](https://github.com/mingderwang/todocli/blob/v0.0.0/src/commands/show.js)_
+_See code: [src/commands/update.js](https://github.com/mingderwang/todocli/blob/v0.0.0/src/commands/update.js)_
 <!-- commandsstop -->
