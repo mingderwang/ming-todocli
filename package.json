@@ -1,15 +1,15 @@
 {
   "name": "todocli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Ming-der Wang @mingder78",
   "bin": {
     "todocli": "./bin/run"
   },
-  "bugs": "https://github.com/mingderwang/todocli/issues",
+  "bugs": "https://github.com:mingderwang/ming-todocli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@oclif/plugin-help": "^2",
+    "@oclif/plugin-help": "^3",
     "chalk": "^2.4.2",
     "lowdb": "^1.0.0"
   },
@@ -32,7 +32,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/mingderwang/todocli",
+  "homepage": "https://github.com/mingderwang/ming-todocli",
   "keywords": [
     "oclif"
   ],
