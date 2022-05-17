@@ -1,7 +1,7 @@
 {
   "name": "todocli",
-  "version": "0.0.1",
-  "author": "Ming-der Wang @mingder78",
+  "version": "0.0.2",
+  "author": "Ming-der Wang <mingderwang@gmail.com>",
   "bin": {
     "todocli": "./bin/run"
   },
