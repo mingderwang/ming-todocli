@@ -6,3 +6,5 @@
 /tmp
 node_modules
 db.json
+/lib
+oclif.manifest.json
